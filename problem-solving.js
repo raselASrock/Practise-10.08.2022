@@ -27,3 +27,13 @@ const totalSubjectNumber = 5;
 const calculateTheAverage = totalSubjectSum / totalSubjectNumber ;
 console.log(calculateTheAverage.toFixed(2));
 
+/*
+Practise Problem - 03
+John’s teacher gave him two variables. Each variable contains a string. John’s teacher asked him to
+combine these two strings and print them in one line. Help John write the program.
+*/ 
+
+const firstText = "I am going to be " ;
+const lastText = "an awesome Web developer." ;
+const result = firstText + lastText ;
+console.log(result);
